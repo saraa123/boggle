@@ -100,6 +100,11 @@ def main():
     grid = make_grid(3, 3)
     dictionary = get_dictionary('words.txt')
     words = search(grid, dictionary)
+    
+def display_words()
+    """
+    This method takes in the words returned from the search method
+    """
     for word in words:
         print(word)
     print("Found %s words" % len(words))
